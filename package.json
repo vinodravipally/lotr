@@ -1,14 +1,1 @@
-{
-"name": "@vinodreddyr/lotr",
-"version": "1.0.0",
-"description": "SDK for LOTR nuggets",
-  "license": "MIT",
-  "repository": "vinodravipally/lotr",
-  "main": "index.js",
-  "keywords": [
-    "lotr",
-    "npm",
-    "package",
-    "vinodravipally"
-  ]
-}
+{"name":"@vinodreddyr/lotr","version":"2.0.0","description":"SDK for LOTR nuggets","license":"MIT","repository":"vinodravipally/lotr","main":"index.js","keywords":["lotr","npm","package","vinodravipally"]}
