@@ -19,4 +19,4 @@ const lotrBooks = () => {
 };
 
 exports.lotr = lotr;
-exports.lotrBooks = lotr;
+exports.lotrBooks = lotrBooks;
