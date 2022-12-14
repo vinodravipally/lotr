@@ -1,1 +1,1 @@
-{"type":"module","name":"@vinodreddyr/lotr","version":"2.2.4","description":"SDK for LOTR nuggets","license":"MIT","repository":"vinodravipally/lotr","main":"index.js","keywords":["lotr","npm","package","vinodravipally"],"dependencies":{"node-fetch":"^3.3.0"}}
+{"type":"module","name":"@vinodreddyr/lotr","version":"2.2.5","description":"SDK for LOTR nuggets","license":"MIT","repository":"vinodravipally/lotr","main":"index.js","keywords":["lotr","npm","package","vinodravipally"],"dependencies":{"node-fetch":"^3.3.0"}}
