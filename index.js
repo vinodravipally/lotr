@@ -5,7 +5,7 @@ export function lotr(string){
   return string.replace(/\s/g, "");
 };
 
-export function lotrBooks() => {
+export function lotrBooks(){
   var result;
   fetch("https://the-one-api.dev/v2/book", {
     method: "GET",
