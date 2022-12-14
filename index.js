@@ -12,9 +12,10 @@ export function lotrBooks(){
     headers: {
       "Authorization": "Bearer AxoX8sb7aJLhtwQd1Nbn",
     },
-  })
-    .then((response) => response.json())
-    .then(function(json){
+  }).then(function(response){
+    response.json()
+    console.log('response', response);
+  }).then(function(json){
       result = JSON.stringify(json);
     }).catch(function() {
         console.log("error");
