@@ -18,7 +18,7 @@ responsible for dependency management.
 
 `npm i @vinodreddyr/lotr`
 
-`import { lotr, lotrBooks } from '@vinodreddyr/lotr/index.js'`
+`import { getBooks } from '@vinodreddyr/lotr/index.js'`
 
 ## SDK Versioning
 
