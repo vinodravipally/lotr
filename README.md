@@ -22,7 +22,7 @@ responsible for dependency management.
 
 ## SDK Versioning
 
-This SDK uses [Semantic Versioning](http://semver.org/) 
+This SDK uses [Semantic Versioning](http://semver.org/)
 
 It has three main parts, each corresponding to importance of a release: “MAJOR.MINOR.PATCH”.
 
@@ -41,7 +41,7 @@ lotr.getBooks()
     // Error handling
   });
 ```
-## Available methods
+## Methods
 
 ### Book
 
@@ -59,7 +59,7 @@ lotr.getBooks()
 ### Character
 
 - `getCharacters()`
-- `getCharacter(character_id)` 
+- `getCharacter(character_id)`
 
 ### Quote
 
