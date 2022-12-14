@@ -1,11 +1,11 @@
 import fetch from 'node-fetch';
 
-const lotr = (string) => {
+export function lotr(string){
   if (typeof string !== "string") throw new TypeError("lotr wants a string!");
   return string.replace(/\s/g, "");
 };
 
-const lotrBooks = () => {
+export function lotrBooks() => {
   var result;
   fetch("https://the-one-api.dev/v2/book", {
     method: "GET",
@@ -19,6 +19,3 @@ const lotrBooks = () => {
     });
     return result;
 };
-
-exports.lotr = lotr;
-exports.lotrBooks = lotrBooks;
