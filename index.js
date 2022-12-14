@@ -1,9 +1,9 @@
-exports.lotr = function(string) {
+const lotr = (string) => {
   if (typeof string !== "string") throw new TypeError("lotr wants a string!");
   return string.replace(/\s/g, "");
 };
 
-exports.getAllLotrBooks = function(){
+const lotrBooks = () => {
   var result;
   fetch("https://the-one-api.dev/v2/book", {
     method: "GET",
@@ -17,3 +17,6 @@ exports.getAllLotrBooks = function(){
     });
     return json;
 };
+
+exports.lotr = lotr;
+exports.lotrBooks = lotr;
