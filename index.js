@@ -18,7 +18,7 @@ export function lotrBooks(){
   }).then(function(json){
       result = JSON.stringify(json);
     }).catch(function() {
-        console.log("error");
+        throw new TypeError("API error");
     });
     return result;
 };
