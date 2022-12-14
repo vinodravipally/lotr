@@ -15,7 +15,7 @@ export function lotrBooks(){
   })
     .then((response) => response.json())
     .then(function(json){
-      result = json;
+      result = JSON.stringify(json);
     });
     return result;
 };
