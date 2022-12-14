@@ -1,8 +1,8 @@
 # Design Strategy
 
-Built the SDK using vanilla JS, tried to avoid any dependencies but had to use node-fetch
+Built the SDK using vanilla JS, using only one node-fetch dependency.
 
-Built the npm package as a module so I can write and export each independent method
+Built the npm package as a module so I can write and export each independent method.
 
 Exposed all the methods provided in the [the-one-api](https://the-one-api.dev/)
 
